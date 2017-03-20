@@ -1,0 +1,111 @@
+.h-menu-img{
+    float: left;
+    width: .32rem;
+    height: .32rem;
+    margin: .16rem;
+}
+.h-close-img{
+    float: right;
+    width: .32rem;
+    height: .32rem;
+    margin: .16rem;
+}
+/**********mian**********/
+#main{width: 100%;}
+.m-tips-box{
+    width:100%;
+    line-height: .80rem;
+    background-color:#b9e9f5;
+}
+.m-tips-span{
+    padding:0 0 0 .60rem;
+}
+.m-tips-audio--img{
+    float: right;
+    height:.60rem;
+    width:.60rem;
+    margin: .10rem .10rem 0 0;
+}
+.m-intro-box{
+    line-height: .60rem;
+}
+.m-intro-span{
+    color: #fff;
+    padding-left: .80rem;
+}
+/*************select-box*************/
+.m-select-box-group{
+    width: 98%;
+    /*height: 6.80rem;*/
+    margin:.32rem auto 0;
+    /*overflow: scroll;*/
+}
+.m-select-box{
+    float:left;
+    width: 33%;
+}
+.m-select-person-box{
+    position: relative;
+    height: 1.26rem;
+    width: 1.26rem;
+    margin: 0 auto;
+    border: .05rem solid #fff;
+}
+.m-select-person-box-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.26rem;
+    width: 1.26rem;
+    background: url(../pic/sprite.png) -1.00rem 0 no-repeat ;
+    background-size: 7.2rem 7.2rem;
+    /*border: .05rem solid #fff;*/
+}
+.m-select-person-box-cover:hover{
+    opacity: 0;
+}
+
+.m-select-person-name{
+    line-height: .99rem;
+    background-color:#f5c97b;
+    text-align: center;
+    font-size: .26rem;
+}
+.m-select-person-number{
+    line-height: .27rem;
+    background-color:#83b09a;
+    text-align: center;
+    font-size: .20rem;
+    color: #fff;
+}
+.m-select-role-box{
+    width: 1.40rem;
+    height: auto;
+    margin: .20rem auto;
+    position: relative;
+    left: .02rem;
+}
+.m-select-role-box img{
+    margin-right: .05rem;
+    height: .30rem;
+    width: .30rem;
+}
+.m-select-role-box{
+    opacity: 0;
+
+}
+.m-select-role-box:hover{
+    opacity:1
+}
+/*******页脚********/
+.f-btn{
+    display:block;
+    width:70%;
+    height: .80rem;
+    margin: .40rem auto .60rem auto ;
+    background-color:gold;
+}
+body{padding-bottom: 1.80rem;}
+
+
+

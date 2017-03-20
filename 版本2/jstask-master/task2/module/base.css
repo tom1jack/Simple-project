@@ -1,0 +1,62 @@
+*{margin: 0;padding: 0;}
+*{font-family: "Hiragino Sans GB W3", "微软雅黑", sans-serif}
+/**{border: 1px solid #f88;}*/
+img{max-width: 100%;}
+a:link{text-decoration:none;}
+button{font-family: "Hiragino Sans GB W3", "微软雅黑", sans-serif;}
+ul,li{list-style:none; }
+/**{background-size: 7.2rem 7.2rem}*/
+
+/************clearfix**************/
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    zoom: 1;
+}
+
+
+html{width: 100%;font-size: 625%;}
+html{font-family:"Hiragino Sans GB W3", "微软雅黑",sans-serif ;}
+body{
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #29bde0;
+    font-size: .24rem;
+}
+html,header,footer{max-width: 640px; min-width: 300px;margin: 0 auto;}
+
+
+/*********通用样式********/
+
+.back-icon{
+    display: inline-block;
+    /*content: "&#x2329;";*/
+    transform: rotateY(50deg);
+    -webkit-transform: rotateY(50deg);
+    position: relative;bottom: .05rem;
+    font-size: .64rem;
+    /*margin: 0 -0.24rem;*/
+    /*position: relative;*/
+    /*left: -.24rem;*/
+}
+.close-icon{
+    display: inline-block;
+    /*content:"&#x2715;"*/
+    font-size: .42rem;
+    line-height: .64rem;
+}
+/*main{*/
+    /*width: 100%;*/
+    /*background: #29bde0;*/
+/*}*/
+
+
+
+
+
+
