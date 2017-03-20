@@ -1,0 +1,75 @@
+/*主题颜色：#03a9f4*/
+
+html{
+    width: 100%;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+body{
+    width: 100%;
+    background: rgba(0,0,0,0.4) url(img/background.png) 0 0 ;
+}
+main{
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.login-m-wrapper{
+    width: 540px;
+    height: 390px;
+    background: #d3d8e0;
+}
+.login-m-h1{
+    margin: 0;
+    text-align: center;
+    line-height: 90px;
+    color: #03a9f4;
+}
+.login-m-user,.login-m-pwd,.login-m-submit{
+    display: block;
+    width: 436px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    /*font-size: 16px;*/
+    background: #fff;
+    border-width: 0;
+}
+.login-m-user{
+    padding-left: 70px;
+    background: #fff url(img/user.png) no-repeat 16px 50%;
+}
+.login-m-pwd{
+    padding-left: 70px;
+    background: #fff url(img/pwd.png) no-repeat 16px 50%;
+    margin-top: 20px;
+}
+.login-m-tip{
+    height: 60px;
+    padding-left: 60px;
+    line-height: 60px;
+    color: red;
+}
+.login-m-submit{
+    margin-top: 16px;
+    color: #fff;
+    background: #03a9f4;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

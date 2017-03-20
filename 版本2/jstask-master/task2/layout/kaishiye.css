@@ -1,0 +1,63 @@
+
+body{background-color: #f0f0f0;}
+/*********header*******/
+
+.header-img{
+    width: .34rem;
+    height: .28rem;
+    margin: .16rem .20rem;
+}
+/*************main*************/
+#main{
+    width: 5.68rem;
+    padding: 0 .35rem .28rem .35rem;
+    text-align: center;
+}
+.m-last-btn{
+    position: relative;
+    margin: .27rem 0;
+    width: 100%;
+    line-height: 1.14rem;
+    font-size: .32rem;
+    border: 1px solid #c9c9c9;
+    background-color: #fff;
+}
+.m-last-btn-img{
+    position: absolute;
+    right: .14rem;
+    float: right;
+    margin-top: .39rem;
+    height: .36rem;
+}
+/****************begin-box*************/
+.m-begin-box{
+    width:100%;
+    color: #787878;
+    background-color: #fff;
+}
+.m-begin-h--box{
+    width:100%;
+    font-size: .36rem;
+    background: #fff;
+    border: 1px solid #c9c9c9;
+    border-bottom: 1px solid #fbb435;
+}
+.m-begin-h{
+    line-height: .90rem;
+    color: #fbb435;
+}
+.m-begin-btn{
+    margin: .28rem 0;
+    width: 4.63rem;
+    line-height: 1.32rem;
+    font-size: .32rem;
+    color: #fff;
+    background-color: #69d1e9;
+}
+/***************翻页式轮播******/
+.lunbo{width: 100%}
+
+
+
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=0.5
+    minimum-scale=0.5 maximum-scale=1.5 user-scalable=yes">
+    <title>桌游精灵</title>
+    <link rel="stylesheet" href="module/normalize.css"><!--重置样式-->
+    <link rel="stylesheet" href="module/base.css"><!--基础样式，设置html body 字体-->
+    <link rel="stylesheet" href="module/module-header.css"><!--页眉组件-->
+    <link rel="stylesheet" href="layout/kaishiye.css"><!--此页布局样式-->
+</head>
+<body>
+<header><!-----header----->
+    <div class="h-left">
+    <a href="#"> <img src="pic/hambergmenu.png" class="header-img"></a>
+    </div>
+</header>
+<div id="main"><!--主体-->
+    <button type="button" href="toupiaoye.html" class="m-last-btn">
+        上次游戏：捉鬼猜词版<img class="m-last-btn-img" src="pic/back.png">
+    </button>
+    <div class="m-begin-box"><!--3个按钮的box-->
+        <div class="m-begin-h--box">
+            <span class="m-begin-h">捉鬼游戏</span>
+        </div>
+        <!--<a href="TouPiaoYe.html">-->
+            <button type="button" onclick="selectPeoplePage()" class="m-begin-btn">
+            简化版
+            </button>
+        <!--</a>-->
+        <p>有1133个用户正在玩此款游戏</p>
+        <button type="button" class="m-begin-btn">
+            猜词版
+        </button>
+        <p>有1133个用户正在玩此款游戏</p>
+        <button type="button" href="toupiaoye.html" class="m-begin-btn">
+            白痴版
+        </button>
+        <p>有1133个用户正在玩此款游戏</p>
+        <div class="lunbo">轮播</div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="module/base.js"></script>
+<script src="module/redirect.js"></script>
+</body>
+</html>

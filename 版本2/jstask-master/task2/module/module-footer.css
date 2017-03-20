@@ -1,0 +1,53 @@
+/***************footer***************/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1.28rem;
+    max-width: 640px;
+    text-align: center;
+    font-size: .42rem;
+    background-color: #29bde0/*rgba(41 206 240 0.7)*/;
+}
+body{padding-bottom: 1.28rem;}
+.f-btn-small{
+    margin: 0 auto;
+    width: 80%;
+    line-height: .86rem ;
+    background: #fbb435;
+    color: #fff;
+}
+.f-btn-left{
+    float: left;
+    width: 2.25rem;
+    margin-left: .5rem;
+    margin-top: .20rem;
+    line-height: .86rem;
+    background: #fbb435;
+    color: #fff;
+    border-radius: .05rem;
+}
+.f-btn-right{
+    float: right;
+    width: 2.25rem;
+    margin-right: .5rem;
+    margin-top: .20rem;
+    line-height: .86rem;
+    background: #fbb435;
+    color: #fff;
+    border-radius: .05rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
